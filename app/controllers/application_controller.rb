@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
   def testing
-    render json: {}
+    render json: params
   end
 end
